@@ -1,6 +1,12 @@
+/**
+ * PostCSS configuration
+ * This file configures the PostCSS plugins used in the project
+ * - tailwindcss: Processes Tailwind CSS directives
+ * - autoprefixer: Adds vendor prefixes to CSS rules
+ */
 module.exports = {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  }
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
